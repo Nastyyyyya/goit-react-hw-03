@@ -1,0 +1,22 @@
+.contactItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.contactDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
